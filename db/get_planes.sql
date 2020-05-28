@@ -1,2 +1,2 @@
 SELECT * FROM airplanes
-WHERE passenger_count > $1;
+WHERE passenger_count > ($1);
